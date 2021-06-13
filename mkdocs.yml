@@ -1,2 +1,26 @@
-site_name: My Docs
+site_name: 学习笔记
 site_url: https://example.com/
+theme:
+  name: material
+  language: zh
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/ztd811
+    - icon: fontawesome/brands/github
+      link: https://github.com/mba811
+copyright: Copyright © 2016 - 2021 Tsong Khapa
+nav:
+  - search
+
+
+nav:
+  - 学习笔记: 
+      - 1: 1.md
+      - 2: 2.md
+      - 3: 3.md
+      - 4: 4.md
+      - 5: 5.md
+      - 6: 6.md
+      - 7: 7.md
+  - 关于: 关于.md
